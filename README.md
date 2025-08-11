@@ -3,7 +3,7 @@
 ## Name
 hp6633 - controls the Hewlett-Packard HP663[2,3,4] Power Supply using GPIB
 
-![my HP6633](20170106_hp6633.jpg "my HP6633")
+![my HP6633](img/20170106_hp6633.jpg "my HP6633")
 
 ## Description
 'hp6633' is a program to access and control the Hewlett-Packard HP6633 System Power Supply using GPIB under Linux. 
@@ -17,6 +17,8 @@ Some features:
 - keep last settings after quitting the program
 - record voltage, current, and elapsed time to file
 - **graphical display** ("stripchart recorder") using gnuplot
+
+![HP6633 Data Recording](img/hp6633daq.jpg "HP6633 Data Recording")
 
 ## Requirements
 - At least one HP6633 instrument, and a GPIB cable.
