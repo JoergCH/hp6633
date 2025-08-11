@@ -130,28 +130,26 @@ The data files are tab-delimited ASCII files. To (re)display these data e.g. usi
 
 - for a "standard" plot (voltage and current over time):
 
-    set style data lines
-    set grid xt
-    set grid yt
-    set xlabel 'min'
-    set ylabel 'V'
-    set y2label 'A'
-    set title 'filename'
-    plot 'filename' using 1:2 title 'Voltage', '' u 1:3 axis x1y2 title 'Current'
+      set style data lines
+      set grid xt
+      set grid yt
+      set xlabel 'min'
+      set ylabel 'V'
+      set y2label 'A'
+      set title 'filename'
+      plot 'filename' using 1:2 title 'Voltage', '' u 1:3 axis x1y2 title 'Current'
 
 - for data from voltage ramping (current over voltage):
 
-    set style data lines
-    set grid xt
-    set grid yt
-    set xlabel 'V'
-    set ylabel 'A'
-    set title 'filename'
-    plot 'filename' using 2:3 index 0 title 'I vs. U (1)', '' u 2:3 index 1 title 'I vs. U (2)'
-
+      set style data lines
+      set grid xt
+      set grid yt
+      set xlabel 'V'
+      set ylabel 'A'
+      set title 'filename'
+      plot 'filename' using 2:3 index 0 title 'I vs. U (1)', '' u 2:3 index 1 title 'I vs. U (2)'
 
 ## License
-
 This program and its documentation are Copyright (c) 2005...2025 Joerg Hau.
 
 This program is free software; you can redistribute it and/or modify it
