@@ -3,6 +3,8 @@
 ## Name
 hp6633 - controls the Hewlett-Packard HP663[2,3,4] Power Supply using GPIB
 
+![my HP6633](20170106_hp6633.jpg "my HP6633")
+
 ## Description
 'hp6633' is a program to access and control the Hewlett-Packard HP6633 System Power Supply using GPIB under Linux. 
 It was written and tested with a HP6633 and "is expected to work" with the HP6632 and 6634, too.
