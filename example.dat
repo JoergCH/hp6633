@@ -1,5 +1,5 @@
 # hp6633 V20160217
-# 
+# Example file as produced by the hp6633 
 # Start: Mon Jan  9 14:06:40 2017
 # min	Volt	Ampere
 0.0019	0.0520	-0.0005
@@ -497,4 +497,3 @@
 1.6389	7.4530	0.8343
 1.6426	7.3950	0.8309
 # Stop: Mon Jan  9 14:08:19 2017
-

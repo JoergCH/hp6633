@@ -38,7 +38,7 @@
  2016-02-15     bug fix around init error msg
  2016-02-17     updated doc (JHa)
  2017-01-23     minor bug fix around keyboard handling (JHa)
- 2025-08-11     moved everything to github (JHa)
+ 2025-08-11     moved everything to GitHub (JHa)
  
  This should compile with any C compiler, something like:
 
