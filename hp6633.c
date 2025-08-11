@@ -61,7 +61,7 @@
 #include <sys/time.h>       /* clock timing */
 #include "gpib/ib.h"
 
-#define VERSION "V20170123"    /* String! */
+#define VERSION "V20250811"    /* String! */
 #define GNUPLOT "gnuplot"      /* gnuplot executable */
 
 #define MAXLEN   81         /* text buffers etc */
