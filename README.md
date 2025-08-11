@@ -168,14 +168,14 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License (file
 LICENSE) for more details.
 
-
 ## ToDo
-Things that are not yet implemented:
 - Reading of instrument error conditions
-- use of GPIB interrupt control
+- Use of GPIB *interrupt* control
 
 ## History
 See top of the hp6633.c file.
+
+I started writing this software in 2005 (based on code I had developed for the Solartron S7150 multimeter) and it was published on my homepage all these years. It was only in 2025 that I decided to move it to GitHub :-)
 
 I have developed this software on a Pentium-II 400 MHz, later a Pentium-III 600 MHz with SuSE Linux 9.0, Kernel 2.4 and linux-gpib-3.1.101. 
 In 2016, this same system was upgraded to Debian 8 with Kernel 3.16 and linux-gpib-4.0.2. 
